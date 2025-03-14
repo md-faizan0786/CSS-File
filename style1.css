@@ -1,0 +1,63 @@
+/*
+
+* {
+      color:red       /* universal 
+}
+
+*/
+
+ h1{ 
+    color: blue;
+}
+
+button{
+    color:brown;
+    background-color: yellow;
+}
+
+body{
+    background-color:moccasin;
+    /* background-color: #ff0000; 
+     background-color: #03f4fc; 
+     /* background-color: rgb(0,255,0);  */
+}
+     
+
+    #headingone {
+        color:aqua;
+    }
+    #headingtwo {
+        color:blueviolet
+    }
+    
+    .myClass {
+        color: gray;
+    }
+
+
+    p{
+        text-align: center;
+       
+    }
+
+    a{
+        text-decoration:red double underline;
+    }
+
+    #h3{
+        font-weight:100;
+    }
+
+    #h4{
+        font-weight:100;
+    }
+
+    #h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #one{
+        font-size: 30px;
+    }
+    #three{
+        font-size: 10px;
+    }
