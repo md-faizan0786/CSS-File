@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    height: 300px;
+    width: 700px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    
+}
+
+#box1 {
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#box2 {
+    background-color:pink;
+    height: 200px;
+    flex-grow: 2;
+}
+
+#box3 {
+    background-color: darkkhaki;
+    height: 75px;
+    /* align-self: flex-start;
+    */
+} 
+
+#box4 {
+    background-color: indianred;
+}
+
+#box5 {
+    background-color: slateblue;
+/* align-self: flex-end; */
+}
+
+
+/* QUESTIONS: */
+
+ul{
+    background-color: pink;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+a{
+     text-decoration: none;
+    color: white;
+    }
+
+    li{
+        background-color: red;
+        list-style-type: none;
+        display: inline;
+        
+    }
+
+body{
+    text-align: center;
+   
+}
+
+
+/* QUESTION: 2 */
+
+.outer{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.inner {
+    height: 100;
+    width: 100;
+    background-color: greenyellow;
+    align-items: center;
+}
+
+.faizan{ background-color: orange;}
+
+@media(width: 700px){
+    .faizan{ background-color: blue;
+     }
+ }
+
+@media(min-width: 500px){
+   .faizan{ background-color: blueviolet;
+    }
+}
+
+@media(min-width: 500px) and (max-width: 600px){
+    .faizan{ background-color: red;
+     }
+ }
